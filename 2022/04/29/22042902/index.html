@@ -323,10 +323,25 @@
       <img src="https://img11.360buyimg.com/img/jfs/t1/223575/38/11258/302576/628c9a21E3989ee15/4d24dc1c2632d976.jpg" title="" alt="" width="270">
 
 <p>很多业务同学在遇到这种带背景图的设计图时不知道该如何搭建楼层，大家可以按照以下步骤来操作~~<br><br/><br>首先我们需要添加灵活广告模块，并且在灵活广告的样式配置下面找到楼层背景设置，选择背景图片，上传我们的背景图片，这里我用的是一张宽度1125，高度1354的背景图。</p>
-<img title="" src="https://img11.360buyimg.com/img/jfs/t1/188103/1/20952/69775/628ca63cE0473e400/1abcd83ed4a87842.jpg" alt="" width="638">
+<br/>
+
+<img title="" src="https://img11.360buyimg.com/img/jfs/t1/4453/3/17929/189931/628d9be0Ec8f9dd0e/11882c90aec2c021.jpg" alt="" width="638">
+
+<br/>
+
+<p>接下来我们需要对边距进行调整，这里大家一定要注意 – 左右边距、卡片间距、内边框 调整这三个值同时会影响单个素材的宽度，比如说我们的素材模板宽度是327x414，那我们的边距配置如下图所示：</p>
+<br/>
+
+<p><img src="https://img11.360buyimg.com/img/jfs/t1/100211/22/27101/186397/628da606E714b5751/94de8b1befb2c42c.jpg"></p>
+<br/>
+
+<p>最后我们在将广告图片的尺寸设置与卡片配置相同就可以了</p>
+<br/>
+
+<p><img src="https://img11.360buyimg.com/img/jfs/t1/199307/12/22459/139517/628da6c4E8b5c8c72/25bd40461b2312c6.jpg"></p>
 
   </div>
-  <div id=""></div>
+  <div id="gitalk-container"></div>
 </div>
 
 <script>
@@ -496,9 +511,22 @@ Fancybox.bind('[data-fancybox="fancybox-gallery-img"]', {
 </script>
 
 
+<!-- Baidu Analytics -->
+<script defer>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1b4cc6923bf6d386a36ee3dd0e2a234c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
     <!-- Gitalk -->
     <script>
-        const data = '{"clientID":"02b3c","clientSecret":"adfc7b4","repo":"gimment","owner":"duneng","admin":"duneng"}'
+        const data = '{"clientID":"a8891a5bb11605fcb61d","clientSecret":"06c86e0cfd0196bafb0bc77cd2f42f84695fa6f1","repo":"blog","owner":"fls-ued","admin":"fls-ued"}'
         const gitalk = new Gitalk({
             ...JSON.parse( data),
             id:location.pathname,

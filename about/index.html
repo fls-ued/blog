@@ -387,9 +387,22 @@
 </script>
 
 
+<!-- Baidu Analytics -->
+<script defer>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1b4cc6923bf6d386a36ee3dd0e2a234c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
     <!-- Gitalk -->
     <script>
-        const data = '{"clientID":"02b3c","clientSecret":"adfc7b4","repo":"gimment","owner":"duneng","admin":"duneng"}'
+        const data = '{"clientID":"a8891a5bb11605fcb61d","clientSecret":"06c86e0cfd0196bafb0bc77cd2f42f84695fa6f1","repo":"blog","owner":"fls-ued","admin":"fls-ued"}'
         const gitalk = new Gitalk({
             ...JSON.parse( data),
             id:location.pathname,
